@@ -32,9 +32,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased min-h-screen`}
+        style={{ minHeight: "100dvh" }}
+        suppressHydrationWarning
       >
         <TooltipProvider>
           <SidebarProvider>
