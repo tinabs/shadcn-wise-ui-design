@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 import {
   Home,
@@ -12,6 +13,7 @@ import {
 import {
   Sidebar,
   SidebarContent,
+  SidebarHeader,
   SidebarGroup,
   SidebarGroupContent,
   SidebarMenu,
@@ -27,8 +29,11 @@ import {
 export function AppSidebar() {
   return (
     <Sidebar className="border-none mt-16">
-      <SidebarContent>
-        <SidebarGroup>
+      <SidebarHeader className="flex items-center justify-center pb-[40px]">
+        <Image src="/assets/logo.svg" alt="Wise" width={106} height={24} priority />
+      </SidebarHeader>
+      <SidebarContent className="py-4">
+        <SidebarGroup className="px-6">
           <SidebarGroupContent>
             <SidebarMenu>
               <SidebarMenuItem>
