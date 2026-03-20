@@ -103,11 +103,11 @@
   --chart-4: #e9c46a;
   --chart-5: #e76f51;
   --sidebar: var(--grey-100);
-  --sidebar-foreground: var(--grey-600);
-  --sidebar-primary: var(--green-500);
-  --sidebar-primary-foreground: var(--grey-700);
-  --sidebar-accent: var(--green-500);
-  --sidebar-accent-foreground: var(--grey-700);
+  --sidebar-foreground: var(--green-700);
+  --sidebar-primary: var(--grey-200);
+  --sidebar-primary-foreground: var(--grey-100);
+  --sidebar-accent: var(--grey-200);
+  --sidebar-accent-foreground: var(--green-700);
   --sidebar-border: var(--grey-300);
   --sidebar-ring: var(--green-700);
 }

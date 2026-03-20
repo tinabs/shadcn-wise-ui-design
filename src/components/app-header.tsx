@@ -22,11 +22,6 @@ export function AppHeader() {
   return (
     <header className="mt-16 flex h-14 shrink-0 items-center bg-background px-16">
       <div className="mx-auto flex w-full max-w-[976px] items-center gap-4">
-        <SidebarTrigger className="-ml-1" />
-        {/* DESIGNER: Replace with your logo asset or SVG; Wise uses green "WISE" wordmark */}
-        <div className="flex items-center gap-2">
-          <span className="text-xl font-bold text-primary">WISE</span>
-        </div>
         <div className="flex flex-1" />
         <div className="flex items-center gap-2">
           <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">

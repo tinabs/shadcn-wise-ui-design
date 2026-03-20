@@ -95,7 +95,7 @@ export default function Home() {
           <h2 className="text-lg font-semibold">Transactions</h2>
           <Link
             href="/"
-            className="text-sm font-medium text-primary underline-offset-4 hover:underline"
+            className="text-sm font-medium text-green-700 underline-offset-4 hover:underline"
           >
             See all
           </Link>
@@ -113,7 +113,7 @@ export default function Home() {
                   <p className="text-xs text-muted-foreground">{tx.subAmount}</p>
                 )}
               </div>
-              <p className={`shrink-0 text-right font-medium ${tx.isCredit ? "text-primary" : ""}`}>
+              <p className={`shrink-0 text-right font-medium ${tx.isCredit ? "text-green-700" : ""}`}>
                 {tx.amount}
               </p>
             </li>
