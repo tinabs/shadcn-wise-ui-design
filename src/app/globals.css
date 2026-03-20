@@ -81,7 +81,7 @@
   --radius: 0.625rem;
   --background: var(--grey-100);
   --foreground: var(--grey-600);
-  --card: var(--grey-100);
+  --card: var(--grey-200);
   --card-foreground: var(--grey-600);
   --popover: var(--grey-100);
   --popover-foreground: var(--grey-600);
@@ -102,7 +102,7 @@
   --chart-3: #3d5a80;
   --chart-4: #e9c46a;
   --chart-5: #e76f51;
-  --sidebar: var(--grey-200);
+  --sidebar: var(--grey-100);
   --sidebar-foreground: var(--grey-600);
   --sidebar-primary: var(--green-500);
   --sidebar-primary-foreground: var(--grey-700);
@@ -140,7 +140,7 @@
   --chart-3: #e9c46a;
   --chart-4: #a78bfa;
   --chart-5: #f87171;
-  --sidebar: var(--grey-600);
+  --sidebar: var(--grey-700);
   --sidebar-foreground: var(--grey-100);
   --sidebar-primary: var(--green-700);
   --sidebar-primary-foreground: var(--grey-100);
